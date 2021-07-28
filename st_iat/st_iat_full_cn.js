@@ -177,12 +177,23 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'当屏幕上的词属于' +  
+				//'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
+				//'<font color="#31b404">attribute1</font>.<br/>' + 
+				//'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
+				//'<font color="#31b404">attribute2</font> ' +
+				//'and for items that belong to the category <font color="#31b404">thecategory</font>.<br/>' + 
+				//'Items will appear one at a time.<br/><br/>' + 
+				//'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+				//'Press the other key to continue.<br/><br/>' + 
+				//'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
+                '当屏幕上的词属于' +  
             	'<font color="#31b404">attribute1</font>' +
                 '时，请用左手食指按下 <b>E</b> 键；' +  
 				'当屏幕上的词属于' + 
                 '<font color="#31b404">attribute2</font>' + 
-                '时，请用右手食指按下 <b>I</b> 键。' +
+                '或者与' +
+                '<font color="#31b404">thecategory</font>' +
+                '有关时，请用右手食指按下 <b>I</b> 键。<br/>' +
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
                 '这时候，请按另外一个键继续。<br/><br/>' +
@@ -190,9 +201,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'当屏幕上的词属于' +  
+				'当屏幕上的词属于' +                  
             	'<font color="#31b404">attribute1</font>' +
-                '时，请用左手食指按下 <b>E</b> 键；' +  
+                '或者与' +
+                '<font color="#31b404">thecategory</font>' +
+                '有关时，请用左手食指按下 <b>E</b> 键；' +  
 				'当屏幕上的词属于' + 
                 '<font color="#31b404">attribute2</font>' + 
                 '时，请用右手食指按下 <b>I</b> 键。' +
