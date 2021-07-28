@@ -150,8 +150,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			//Will appear at the bottom of the screen during trials.
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'如果你打错了，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
-			'那个时候，请按另一个键继续下一题。<p/>',
+			'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
+			'如果出现红X，请按另外一个键继续。<p/>',
 			
 			finalText: '恭喜你，已经完成本次测试<br/><br/>请按 空格键 继续。', 
 
@@ -164,38 +164,60 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instTemplatePractice : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute1</font>.<br/>' + 
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute2</font>.<br/>' + 
-				'Items will appear one at a time.<br/><br/>' + 
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-				'Press the other key to continue.<br/><br/>' + 
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
+				'当屏幕上的词属于' +  
+                // Put a left finger on the <b>E</b> key for items that belong to the category ' + 
+				'<font color="#31b404">attribute1</font>.<br/>' +
+                '时，请用左手食指按下 <b>E</b> 键' +  
+				// 'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
+				'当屏幕上的词属于' + 
+                '<font color="#31b404">attribute2</font>.<br/>' + 
+                '时，请用右手食指按下 <b>I</b> 键' +
+				// 'Items will appear one at a time.<br/><br/>' + 
+                '每次屏幕上只会显示一个词。<br/><br/>' + 
+				// 'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
+                // 'Press the other key to continue.<br/><br/>' + 
+                '如果出现红X，请按另外一个键继续。<br/><br/>' +
+				// '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>'
+                '<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute1</font>.<br/>' + 
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute2</font> ' +
-				'and for items that belong to the category <font color="#31b404">thecategory</font>.<br/>' + 
-				'Items will appear one at a time.<br/><br/>' + 
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-				'Press the other key to continue.<br/><br/>' + 
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
+				'当屏幕上的词属于' +  
+                // Put a left finger on the <b>E</b> key for items that belong to the category ' + 
+				'<font color="#31b404">attribute1</font>.<br/>' +
+                '时，请用左手食指按下 <b>E</b> 键' +  
+				// 'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
+				'当屏幕上的词属于' + 
+                '<font color="#31b404">attribute2</font>.<br/>' + 
+                '时，请用右手食指按下 <b>I</b> 键' +
+				// 'Items will appear one at a time.<br/><br/>' + 
+                '每次屏幕上只会显示一个词。<br/><br/>' + 
+				// 'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
+                // 'Press the other key to continue.<br/><br/>' + 
+                '如果出现红X，请按另外一个键继续。<br/><br/>' +
+				// '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>'
+                '<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute1</font> ' +
-				'and for items that belong to the category <font color="#31b404">thecategory</font>.<br/>' + 
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute2</font>.<br/>' + 
-				'Items will appear one at a time.<br/><br/>' + 
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
-				'Press the other key to continue.<br/><br/>' + 
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
+				'当屏幕上的词属于' +  
+                // Put a left finger on the <b>E</b> key for items that belong to the category ' + 
+				'<font color="#31b404">attribute1</font>.<br/>' +
+                '时，请用左手食指按下 <b>E</b> 键' +  
+				// 'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
+				'当屏幕上的词属于' + 
+                '<font color="#31b404">attribute2</font>.<br/>' + 
+                '时，请用右手食指按下 <b>I</b> 键' +
+				// 'Items will appear one at a time.<br/><br/>' + 
+                '每次屏幕上只会显示一个词。<br/><br/>' + 
+				// 'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
+				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
+                // 'Press the other key to continue.<br/><br/>' + 
+                '如果出现红X，请按另外一个键继续。<br/><br/>' +
+				// '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>'
+                '<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
 			
 			//The default feedback messages for each cutoff. 
 			//If you put attribute1, attribute2 and category here, 
