@@ -198,7 +198,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 '时，请用右手食指按下 <b>I</b> 键' +
 				'每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
-                '如果出现红X，请按另外一个键继续。<br/><br/>' +
+                '这时候，请按另外一个键继续。<br/><br/>' +
 				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
 			
 			//The default feedback messages for each cutoff. 
