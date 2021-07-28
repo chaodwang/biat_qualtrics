@@ -23,7 +23,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 
   		attribute1 : 
 			{
-			name : 'unpleasant', //Attribute label
+			name : '贬义词', //Attribute label
 			title : {
 				media : {word : '贬义词'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -42,7 +42,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 			},
 		attribute2 : 
 			{
-			name : 'pleasant', //Attribute label
+			name : '褒义词', //Attribute label
 			title : {
 				media : {word : '褒义词'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
