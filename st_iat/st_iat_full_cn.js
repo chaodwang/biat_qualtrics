@@ -151,7 +151,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Will appear at the bottom of the screen during trials.
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 			'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
-			'如果出现红X，请按另外一个键继续。<p/>',
+			'这时候，请按另外一个键继续。<p/>',
 			
 			finalText: '恭喜你，已经完成本次测试<br/><br/>请按 空格键 继续。', 
 
@@ -172,7 +172,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 '时，请用右手食指按下 <b>I</b> 键' +
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
-                '如果出现红X，请按另外一个键继续。<br/><br/>' +
+                '这时候，请按另外一个键继续。<br/><br/>' +
 				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
@@ -185,7 +185,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 '时，请用右手食指按下 <b>I</b> 键' +
 				'每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
-                '如果出现红X，请按另外一个键继续。<br/><br/>' +
+                '这时候，请按另外一个键继续。<br/><br/>' +
 				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
