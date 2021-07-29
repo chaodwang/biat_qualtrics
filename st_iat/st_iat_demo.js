@@ -10,23 +10,22 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : '科学'}, 
+    		        {word : '科学'}, 
     			{word : '技术'}, 
     			{word : '算法'}, 
-    			{word : '机器学习'}, 
-    			{word : '人工智能'}, 
-    			{word : '虚拟现实'},
+    			{word : '智能'}, 
+    			{word : '交互'},
 			{word : '科技'}
 		    ], 
 		    //Stimulus css (style)
-		    css : {color:'#31b404','font-size':'3em'}
+		    css : {color:'#000000','font-size':'3em'}
 		  },	
 
   		attribute1 : 
 			{
-			name : '贬义词', //Attribute label
+			name : '贬义', //Attribute label
 			title : {
-				media : {word : '贬义词'}, //Name of the category presented in the task.
+				media : {word : '贬义'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
@@ -36,18 +35,16 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				{word: '肮脏'},
 				{word: '糟糕'},
 				{word: '恐怖'},
-				{word: '堕落'},
-				{word: '贪婪'},
-				{word: '卑贱'}
+				{word: '堕落'}
 			], 
 			//Can change color and size of the targets here.
-			css : {color:'#31b404','font-size':'3em'}
+			css : {color:'#000000','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : '褒义词', //Attribute label
+			name : '褒义', //Attribute label
 			title : {
-				media : {word : '褒义词'}, //Name of the category presented in the task.
+				media : {word : '褒义'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
@@ -57,12 +54,10 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				{word: '成功'},
 				{word: '开心'},
 				{word: '荣耀'},
-				{word: '勤奋'},
-				{word: '上进'},
-				{word: '高尚'}
+				{word: '勤奋'}
 			], 
 			//Can change color and size of the targets here.
-			css : {color:'#31b404','font-size':'3em'}
+			css : {color:'#000000','font-size':'3em'}
 			},
 
 });
