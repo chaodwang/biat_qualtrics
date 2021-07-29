@@ -3,19 +3,20 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'china', //Will appear in the data.
+		    name : '科技', //Will appear in the data.
 		    title : {
-		      media : {word : '中国'}, //Name of the category presented in the task.
+		      media : {word : '科技'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : '中国'}, 
-    			{word : '长城'}, 
-    			{word : '天安门'}, 
-    			{word : '孔子'}, 
-    			{word : '五星红旗'}, 
-    			{word : '共产党'}
+    		    	{word : '科学'}, 
+    			{word : '技术'}, 
+    			{word : '算法'}, 
+    			{word : '机器学习'}, 
+    			{word : '人工智能'}, 
+    			{word : '虚拟现实'},
+			{word : '科技'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -30,12 +31,14 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: '炸弹'},
-				{word: '虐待'},
-				{word: '悲伤'},
-				{word: '痛苦'},
-				{word: '毒药'},
-				{word: '悲痛'}
+				{word: '愚蠢'},
+				{word: '笨拙'},
+				{word: '肮脏'},
+				{word: '糟糕'},
+				{word: '恐怖'},
+				{word: '堕落'},
+				{word: '贪婪'},
+				{word: '卑贱'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -49,12 +52,14 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: '极乐'},
-				{word: '愉快'},
+				{word: '聪明'},
+				{word: '吉祥'},
+				{word: '成功'},
 				{word: '开心'},
-				{word: '棒'},
-				{word: '灿烂'},
-				{word: '爱'}
+				{word: '荣耀'},
+				{word: '勤奋'},
+				{word: '上进'},
+				{word: '高尚'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
