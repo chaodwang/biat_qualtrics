@@ -23,9 +23,9 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 
   		attribute1 : 
 			{
-			name : '贬义', //Attribute label
+			name : '贬义词', //Attribute label
 			title : {
-				media : {word : '贬义'}, //Name of the category presented in the task.
+				media : {word : '贬义词'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
@@ -42,9 +42,9 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 			},
 		attribute2 : 
 			{
-			name : '褒义', //Attribute label
+			name : '褒义词', //Attribute label
 			title : {
-				media : {word : '褒义'}, //Name of the category presented in the task.
+				media : {word : '褒义词'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
