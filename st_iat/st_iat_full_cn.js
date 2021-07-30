@@ -143,7 +143,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Text and style for key instructions displayed about the category labels.
 			leftKeyText : '请按 "E" 键', 
 			rightKeyText : '请按 "I" 键', 
-			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
+			keysCss : {'font-size':'1.5em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : '或', 
 			orCss : {'font-size':'1.8em', color:'#000000'},
@@ -213,7 +213,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
                 '这时候，请按另外一个键继续。<br/><br/>' +
 				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
-						
+			
 			//The default feedback messages for each cutoff. 
 			//If you put attribute1, attribute2 and category here, 
 			//these will be replaced with the names of attribute1, attribute2 and category.
