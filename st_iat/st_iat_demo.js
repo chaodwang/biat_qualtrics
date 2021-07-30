@@ -12,7 +12,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/chaodwang/iat_qualtrics/st_iat/st
 		    media : [ //Stimuli content as PIP's media objects
     		    {word : '高能物理'}, 
     			{word : '基因编辑'}, 
-    			{word : '卷积计算'}, 
+    			{word : '卷积运算'}, 
     			{word : '无人驾驶'}, 
     			{word : '量子计算'},
 				{word : '智能家居'}
