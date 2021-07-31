@@ -53,7 +53,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				{word: '智多星'},
 				{word: '大获成功'},
 				{word: '快乐'},
-				{word: '高风亮节'},
+				{word: '心地善良'},
 				{word: '勤劳勇敢'}
 			], 
 			//Can change color and size of the targets here.
