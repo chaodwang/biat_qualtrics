@@ -33,7 +33,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				{word: '愚蠢至极'},
 				{word: '卖国贼'},
 				{word: '藏污纳垢'},
-				{word: '卑贱'},
+				{word: '卑鄙'},
 				{word: '假恶丑'},
 				{word: '自甘堕落'}
 			], 
