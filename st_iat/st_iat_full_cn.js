@@ -162,7 +162,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// blockNum, nBlocks, attribute1, attribute2, and thecategory.
 			// Notice that this is HTML text.
 			instTemplatePractice : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
+				'<font color="#000000"><u>第 blockNum 关，共 nBlocks 关</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'当屏幕上的词是' +  
             	'<font color="#0000CD">attribute1</font>，' +
@@ -175,7 +175,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 '这时候，请按另外一个键继续。<br/><br/>' +
 				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始游戏。</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
+				'<font color="#000000"><u>第 blockNum 关，共 nBlocks 关</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				//'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
 				//'<font color="#31b404">attribute1</font>.<br/>' + 
@@ -191,7 +191,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 '请用左手手指按下 <b>E</b> 键；' +  
 				'当屏幕上的词是' + 
                 '<font color="#0000CD">attribute2</font>' + 
-                '或者与' +
+                '或者是' +
                 '<font color="#0000CD">thecategory</font>' +
                 '时，请用右手手指按下 <b>I</b> 键。<br/>' +
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
@@ -199,11 +199,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 '这时候，请按另外一个键继续。<br/><br/>' +
 				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始游戏。</font></p></div>', 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
+				'<font color="#000000"><u>第 blockNum 关，共 nBlocks 关</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'当屏幕上的词是' +                  
             	'<font color="#0000CD">attribute1</font>' +
-                '或者与' +
+                '或者是' +
                 '<font color="#0000CD">thecategory</font>' +
                 '时，请用左手手指按下 <b>E</b> 键；' +  
 				'当屏幕上的词是' + 
