@@ -153,7 +153,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
 			'这时候，请按另外一个键继续。<p/>',
 			
-			finalText: '恭喜你，已经完成本次测试<br/><br/>请按 空格键 继续。', 
+			finalText: '恭喜你，已经完成本游戏<br/><br/>请按 空格键 继续。', 
 
 			//These are templates for the instructions in the task. 
 			//If you want more specific instructions for different blocks, 
@@ -173,7 +173,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
                 '这时候，请按另外一个键继续。<br/><br/>' +
-				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
+				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始游戏。</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
@@ -197,7 +197,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
                 '这时候，请按另外一个键继续。<br/><br/>' +
-				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
+				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始游戏。</font></p></div>', 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
@@ -212,7 +212,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
                 '这时候，请按另外一个键继续。<br/><br/>' +
-				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始测试。</font></p></div>', 
+				'<p align="center">如果你已经准备好，请按 <b>空格键</b> 开始游戏。</font></p></div>', 
 			
 			//The default feedback messages for each cutoff. 
 			//If you put attribute1, attribute2 and category here, 
