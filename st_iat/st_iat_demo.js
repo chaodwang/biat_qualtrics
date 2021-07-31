@@ -3,9 +3,9 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : '上海有关', //Will appear in the data.
+		    name : '上海地标', //Will appear in the data.
 		    title : {
-		      media : {word : '上海有关'}, //Name of the category presented in the task.
+		      media : {word : '上海地标'}, //Name of the category presented in the task.
 		      css : {color:'#0000CD','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
