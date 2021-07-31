@@ -165,10 +165,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'当屏幕上的词是' +  
-            	'<font color="#000080">attribute1</font>，' +
+            	'<font color="#00008B">attribute1</font>，' +
                 '请用左手手指按下 <b>E</b> 键；' +  
 				'当屏幕上的词是' + 
-                '<font color="#000080">attribute2</font>，' + 
+                '<font color="#00008B">attribute2</font>，' + 
                 '请用右手手指按下 <b>I</b> 键。' +
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
@@ -187,12 +187,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				//'Press the other key to continue.<br/><br/>' + 
 				//'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
                 '当屏幕上的词是' +  
-            	'<font color="#000080">attribute1</font>，' +
+            	'<font color="#00008B">attribute1</font>，' +
                 '请用左手手指按下 <b>E</b> 键；' +  
 				'当屏幕上的词是' + 
-                '<font color="#000080">attribute2</font>' + 
+                '<font color="#00008B">attribute2</font>' + 
                 '或者与' +
-                '<font color="#000080">thecategory</font>' +
+                '<font color="#00008B">thecategory</font>' +
                 '时，请用右手手指按下 <b>I</b> 键。<br/>' +
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
@@ -202,12 +202,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'当屏幕上的词是' +                  
-            	'<font color="#000080">attribute1</font>' +
+            	'<font color="#00008B">attribute1</font>' +
                 '或者与' +
-                '<font color="#000080">thecategory</font>' +
+                '<font color="#00008B">thecategory</font>' +
                 '时，请用左手手指按下 <b>E</b> 键；' +  
 				'当屏幕上的词是' + 
-                '<font color="#000080">attribute2</font>，' + 
+                '<font color="#00008B">attribute2</font>，' + 
                 '请用右手手指按下 <b>I</b> 键。' +
 			    '每次屏幕上只会显示一个词。<br/><br/>' + 
 				'如果你答错，屏幕上会出现一个红色的 <font color="#ff0000"><b>X</b></font> 。' +
