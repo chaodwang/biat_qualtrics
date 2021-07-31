@@ -31,10 +31,10 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 			}, 
 			media : [ //Stimuli
 				{word: '愚蠢至极'},
-				{word: '情商低'},
+				{word: '卖国贼'},
 				{word: '藏污纳垢'},
 				{word: '卑贱'},
-				{word: '惶恐不安'},
+				{word: '假恶丑'},
 				{word: '自甘堕落'}
 			], 
 			//Can change color and size of the targets here.
@@ -49,8 +49,8 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: '善良'},
-				{word: '智多星'},
+				{word: '乐开怀'},
+				{word: '真善美'},
 				{word: '大获成功'},
 				{word: '快乐'},
 				{word: '心地善良'},
