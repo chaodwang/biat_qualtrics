@@ -6,7 +6,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 		    name : '上海有关', //Will appear in the data.
 		    title : {
 		      media : {word : '上海有关'}, //Name of the category presented in the task.
-		      css : {color:'#00008B','font-size':'2em'}, //Style of the category title.
+		      css : {color:'#0000CD','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
@@ -26,7 +26,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 			name : '贬义词', //Attribute label
 			title : {
 				media : {word : '贬义词'}, //Name of the category presented in the task.
-				css : {color:'#00008B','font-size':'2em'}, //Style of the category title.
+				css : {color:'#0000CD','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
@@ -45,7 +45,7 @@ define(['pipAPI', 'https://chaodwang.github.io/iat_qualtrics/st_iat/st_iat_full_
 			name : '褒义词', //Attribute label
 			title : {
 				media : {word : '褒义词'}, //Name of the category presented in the task.
-				css : {color:'#00008B','font-size':'2em'}, //Style of the category title.
+				css : {color:'#0000CD','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
